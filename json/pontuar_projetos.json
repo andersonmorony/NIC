@@ -1,0 +1,30 @@
+{
+    "fields": [
+        {
+            "name": "ponto",
+            "type": "integer"
+        },
+        {
+            "name": "resposta_publica",
+            "type": "text"
+        },
+        {
+            "name": "resposta_confidencial",
+            "type": "text"
+        }
+    ],
+    "validations": [
+        {
+            "field": "evolucao_projeto",
+            "rules": "required"
+        },
+        {
+            "field": "resposta_publica",
+            "rules": "required"
+        },
+        {
+            "field": "resposta_confidencial",
+            "rules": "required"
+        }
+    ]
+}
